@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="screen-border">
+        <header class="container">
+            <img class="oldagram-img" src="images/logo.png" alt="Oldagram logo">
+            <img class="avatar-img" src="images/robot-head.png" alt="user profile pic">
+        </header>
+
+        <section class="container profile-container">
+            <div id="avatar">
+                <!-- <img class="avatar-img" src="images/avatar-vangogh.jpg" alt="Vangogh profile pic"> -->
+            </div>
+            <div>
+                <h2 id="name"></h2>
+                <h3 id="location"></h3>
+            </div>
+        </section>
+
+        <section class="container selfie-container" id="self-portrait">
+            <!-- <img class="selfie-img" src="images/post-vangogh.jpg" alt="Vangogh selfie"> -->
+        </section>
+
+        <section class="container">
+            <div class="icons-container">
+                <img class="icon-img" id="heart-icon" src="images/icon-heart.png" alt="heart icon">
+                <img class="icon-img" src="images/icon-comment.png" alt="comment icon">
+                <img class="icon-img" src="images/icon-dm.png" alt="dm-icon">
+
+            </div>
+            <div class="likes-container bold-text">
+                <p><span id="num-likes"></span> likes</p>
+                <p><span id="username">vincey1853 </span><span id="comment" class="reg-text"> just took a few
+                        mushrooms</span></p>
+            </div>
+        </section>
+
+
+
+        <div class="buttons">
+            <button id="swipe-left">Swipe Left</button>
+            <button id="swipe-right">Swipe Right</button>
+        </div>
+
+    </div><!-- end screen border -->
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
